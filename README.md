@@ -107,3 +107,80 @@
   - Data transfer OUT of the cloud
     - data transfer IN is free
 - solves the expensive issue of traditional IT
+
+## AWS Cloud Number Facts
+
+- In 2019, AWS had $35.02 billion in annual revenue
+- AWS accounts for 47% of the market (Microsoft 2nd at 22%)
+- Pioneer and Leader of the AWS Cloud Market for the 9th consecutive year
+- Over 1,000,000 active users
+
+## Use Cases
+
+- AWS enables you to build sophisticated, scalable applications
+- applicable to a diverse set of industries
+- use cases include:
+  - enterprise IT, backup & storage, big data analytics
+  - host websites, mobile & social apps
+  - gaming
+
+## Global Infrastructure
+
+- Regions
+- Availability Zones
+- Data Centers
+- Edge Locations / Points of Presence
+
+## Regions
+
+- a region is a cluster of data centers
+- most AWS services are region-specific
+
+### How to choose an AWS Region?
+
+- compliance with data governance and legal requirements: data leaves a region without your explicit permission
+
+- proximity to customers: reduced latency
+
+- available services: within a Region: new services and new features aren't available in every Region
+
+- pricing: pricing varies region to region and is transparent in the service pricing page
+
+## Availability Zones
+
+- each region has many availability zones (avg 3, min 2, max 6)
+- each availability zone is one or more discrete data centers with redundant power, networking and connectivity
+- seperate from each other, isolated from disasters
+
+## Point of Presence
+
+- Amazon has 216 POP (205 edge locations & 11 regional caches) in 84 cities across 42 countries
+
+### Example Global and Regional Services
+
+- Global:
+
+  - IAM
+  - Route 53 (DNS service)
+  - Cloudfront (CDN)
+  - WAF (Web Application Firewall)
+
+- Region-scoped:
+
+  - EC2 (IaaS)
+  - Elastic Beanstalk (PaaS)
+  - Lambda (FaaS)
+  - Rekognition (SaaS)
+
+## Shared Responsibility Model
+
+- Customer is responsible for security in the cloud
+- AWS is responsible for security of the cloud
+
+## Acceptable Use Policy
+
+- no illegal, harmful, or offensive use or content
+- no security violations
+- no network abuse
+- no e-mail or other message abuse
+
