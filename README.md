@@ -197,3 +197,19 @@
 - users or groups can be assigned JSON documents called policies
 - policies define permissions of users
 - least privilege principle: don't give more permissions than a user needs
+
+## Password Policy
+
+- in aws you can setup a password policy:
+  - set min length
+  - require specific character types
+- allow all IAM users to change their own passwords
+- require users to change their password after some time
+- prevent password re-use
+
+## Multi Factor Authentication
+
+- protect root and IAM users
+- MFA = password + security device
+
+
