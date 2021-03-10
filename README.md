@@ -184,3 +184,16 @@
 - no network abuse
 - no e-mail or other message abuse
 
+## IAM: Users & Groups
+
+- IAM = identity and access managment, global service
+- root account created by default shouldn't be used or shared
+- users are people within your organization and can be grouped
+- groups only contain users not other groups
+- users can belong to multiple groups
+
+## Permissions
+
+- users or groups can be assigned JSON documents called policies
+- policies define permissions of users
+- least privilege principle: don't give more permissions than a user needs
