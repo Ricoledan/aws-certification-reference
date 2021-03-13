@@ -212,4 +212,11 @@
 - protect root and IAM users
 - MFA = password + security device
 
+## EC2
 
+- EC2 is one of the most popular of the AWS offerings
+- main consists in the capability of:
+  - renting VMs (EC2)
+  - storing data on virtual drives (EBS)
+  - distributing load across machines (ELB)
+  - scaling th services using an auto-scaling group (ASG)
