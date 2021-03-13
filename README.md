@@ -220,3 +220,29 @@
   - storing data on virtual drives (EBS)
   - distributing load across machines (ELB)
   - scaling th services using an auto-scaling group (ASG)
+
+## Security Groups
+
+- SGs are a fundamental concept of network security in aws
+- controls how traffic is allowed in or out of EC2 machines
+- fundamental skill to learn to troubleshoot networking issues
+
+## Security Groups Deep Dive
+
+- SGs are acting like a "firewall"
+- regulate:
+  - access to ports
+  - authorized IP ranges - IPv4 & IPv6
+  - control of inbound network (from other to instance)
+  - control of outbound network (from instance to other)
+
+### Good to know
+
+- can be attached to multiple instances
+- locked down to a region/vpc combination
+- lives outside of EC2
+- good practice to maintain one seperate SG for SSH access
+- if your application is not accessible (time out), it's a sg issue
+- if connection refused error, it's an application error or not launched
+- by default all inbound traffic is blocked, outbound authorized
+
